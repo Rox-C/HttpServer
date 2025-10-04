@@ -1,0 +1,122 @@
+[
+{
+  "directory": "/home/admin/HttpServer/build",
+  "command": "/usr/bin/g++  -I/home/admin/HttpServer/include -I/home/admin/HttpServer/app/include -I/usr/include/mysql -I/usr/include/nlohmann  -Wall -Wextra -O2 -g -std=gnu++14 -o CMakeFiles/http_server.dir/main.cpp.o -c /home/admin/HttpServer/main.cpp",
+  "file": "/home/admin/HttpServer/main.cpp",
+  "output": "CMakeFiles/http_server.dir/main.cpp.o"
+},
+{
+  "directory": "/home/admin/HttpServer/build",
+  "command": "/usr/bin/g++  -I/home/admin/HttpServer/include -I/home/admin/HttpServer/app/include -I/usr/include/mysql -I/usr/include/nlohmann  -Wall -Wextra -O2 -g -std=gnu++14 -o CMakeFiles/http_server.dir/src/http/HttpContext.cpp.o -c /home/admin/HttpServer/src/http/HttpContext.cpp",
+  "file": "/home/admin/HttpServer/src/http/HttpContext.cpp",
+  "output": "CMakeFiles/http_server.dir/src/http/HttpContext.cpp.o"
+},
+{
+  "directory": "/home/admin/HttpServer/build",
+  "command": "/usr/bin/g++  -I/home/admin/HttpServer/include -I/home/admin/HttpServer/app/include -I/usr/include/mysql -I/usr/include/nlohmann  -Wall -Wextra -O2 -g -std=gnu++14 -o CMakeFiles/http_server.dir/src/http/HttpRequest.cpp.o -c /home/admin/HttpServer/src/http/HttpRequest.cpp",
+  "file": "/home/admin/HttpServer/src/http/HttpRequest.cpp",
+  "output": "CMakeFiles/http_server.dir/src/http/HttpRequest.cpp.o"
+},
+{
+  "directory": "/home/admin/HttpServer/build",
+  "command": "/usr/bin/g++  -I/home/admin/HttpServer/include -I/home/admin/HttpServer/app/include -I/usr/include/mysql -I/usr/include/nlohmann  -Wall -Wextra -O2 -g -std=gnu++14 -o CMakeFiles/http_server.dir/src/http/HttpResponse.cpp.o -c /home/admin/HttpServer/src/http/HttpResponse.cpp",
+  "file": "/home/admin/HttpServer/src/http/HttpResponse.cpp",
+  "output": "CMakeFiles/http_server.dir/src/http/HttpResponse.cpp.o"
+},
+{
+  "directory": "/home/admin/HttpServer/build",
+  "command": "/usr/bin/g++  -I/home/admin/HttpServer/include -I/home/admin/HttpServer/app/include -I/usr/include/mysql -I/usr/include/nlohmann  -Wall -Wextra -O2 -g -std=gnu++14 -o CMakeFiles/http_server.dir/src/http/HttpServer.cpp.o -c /home/admin/HttpServer/src/http/HttpServer.cpp",
+  "file": "/home/admin/HttpServer/src/http/HttpServer.cpp",
+  "output": "CMakeFiles/http_server.dir/src/http/HttpServer.cpp.o"
+},
+{
+  "directory": "/home/admin/HttpServer/build",
+  "command": "/usr/bin/g++  -I/home/admin/HttpServer/include -I/home/admin/HttpServer/app/include -I/usr/include/mysql -I/usr/include/nlohmann  -Wall -Wextra -O2 -g -std=gnu++14 -o CMakeFiles/http_server.dir/src/middleware/MiddlewareChain.cpp.o -c /home/admin/HttpServer/src/middleware/MiddlewareChain.cpp",
+  "file": "/home/admin/HttpServer/src/middleware/MiddlewareChain.cpp",
+  "output": "CMakeFiles/http_server.dir/src/middleware/MiddlewareChain.cpp.o"
+},
+{
+  "directory": "/home/admin/HttpServer/build",
+  "command": "/usr/bin/g++  -I/home/admin/HttpServer/include -I/home/admin/HttpServer/app/include -I/usr/include/mysql -I/usr/include/nlohmann  -Wall -Wextra -O2 -g -std=gnu++14 -o CMakeFiles/http_server.dir/src/middleware/cors/CorsMiddleware.cpp.o -c /home/admin/HttpServer/src/middleware/cors/CorsMiddleware.cpp",
+  "file": "/home/admin/HttpServer/src/middleware/cors/CorsMiddleware.cpp",
+  "output": "CMakeFiles/http_server.dir/src/middleware/cors/CorsMiddleware.cpp.o"
+},
+{
+  "directory": "/home/admin/HttpServer/build",
+  "command": "/usr/bin/g++  -I/home/admin/HttpServer/include -I/home/admin/HttpServer/app/include -I/usr/include/mysql -I/usr/include/nlohmann  -Wall -Wextra -O2 -g -std=gnu++14 -o CMakeFiles/http_server.dir/src/router/Router.cpp.o -c /home/admin/HttpServer/src/router/Router.cpp",
+  "file": "/home/admin/HttpServer/src/router/Router.cpp",
+  "output": "CMakeFiles/http_server.dir/src/router/Router.cpp.o"
+},
+{
+  "directory": "/home/admin/HttpServer/build",
+  "command": "/usr/bin/g++  -I/home/admin/HttpServer/include -I/home/admin/HttpServer/app/include -I/usr/include/mysql -I/usr/include/nlohmann  -Wall -Wextra -O2 -g -std=gnu++14 -o CMakeFiles/http_server.dir/src/session/Session.cpp.o -c /home/admin/HttpServer/src/session/Session.cpp",
+  "file": "/home/admin/HttpServer/src/session/Session.cpp",
+  "output": "CMakeFiles/http_server.dir/src/session/Session.cpp.o"
+},
+{
+  "directory": "/home/admin/HttpServer/build",
+  "command": "/usr/bin/g++  -I/home/admin/HttpServer/include -I/home/admin/HttpServer/app/include -I/usr/include/mysql -I/usr/include/nlohmann  -Wall -Wextra -O2 -g -std=gnu++14 -o CMakeFiles/http_server.dir/src/session/SessionManager.cpp.o -c /home/admin/HttpServer/src/session/SessionManager.cpp",
+  "file": "/home/admin/HttpServer/src/session/SessionManager.cpp",
+  "output": "CMakeFiles/http_server.dir/src/session/SessionManager.cpp.o"
+},
+{
+  "directory": "/home/admin/HttpServer/build",
+  "command": "/usr/bin/g++  -I/home/admin/HttpServer/include -I/home/admin/HttpServer/app/include -I/usr/include/mysql -I/usr/include/nlohmann  -Wall -Wextra -O2 -g -std=gnu++14 -o CMakeFiles/http_server.dir/src/session/SessionStorage.cpp.o -c /home/admin/HttpServer/src/session/SessionStorage.cpp",
+  "file": "/home/admin/HttpServer/src/session/SessionStorage.cpp",
+  "output": "CMakeFiles/http_server.dir/src/session/SessionStorage.cpp.o"
+},
+{
+  "directory": "/home/admin/HttpServer/build",
+  "command": "/usr/bin/g++  -I/home/admin/HttpServer/include -I/home/admin/HttpServer/app/include -I/usr/include/mysql -I/usr/include/nlohmann  -Wall -Wextra -O2 -g -std=gnu++14 -o CMakeFiles/http_server.dir/src/ssl/SslConfig.cpp.o -c /home/admin/HttpServer/src/ssl/SslConfig.cpp",
+  "file": "/home/admin/HttpServer/src/ssl/SslConfig.cpp",
+  "output": "CMakeFiles/http_server.dir/src/ssl/SslConfig.cpp.o"
+},
+{
+  "directory": "/home/admin/HttpServer/build",
+  "command": "/usr/bin/g++  -I/home/admin/HttpServer/include -I/home/admin/HttpServer/app/include -I/usr/include/mysql -I/usr/include/nlohmann  -Wall -Wextra -O2 -g -std=gnu++14 -o CMakeFiles/http_server.dir/src/ssl/SslConnection.cpp.o -c /home/admin/HttpServer/src/ssl/SslConnection.cpp",
+  "file": "/home/admin/HttpServer/src/ssl/SslConnection.cpp",
+  "output": "CMakeFiles/http_server.dir/src/ssl/SslConnection.cpp.o"
+},
+{
+  "directory": "/home/admin/HttpServer/build",
+  "command": "/usr/bin/g++  -I/home/admin/HttpServer/include -I/home/admin/HttpServer/app/include -I/usr/include/mysql -I/usr/include/nlohmann  -Wall -Wextra -O2 -g -std=gnu++14 -o CMakeFiles/http_server.dir/src/ssl/SslContext.cpp.o -c /home/admin/HttpServer/src/ssl/SslContext.cpp",
+  "file": "/home/admin/HttpServer/src/ssl/SslContext.cpp",
+  "output": "CMakeFiles/http_server.dir/src/ssl/SslContext.cpp.o"
+},
+{
+  "directory": "/home/admin/HttpServer/build",
+  "command": "/usr/bin/g++  -I/home/admin/HttpServer/include -I/home/admin/HttpServer/app/include -I/usr/include/mysql -I/usr/include/nlohmann  -Wall -Wextra -O2 -g -std=gnu++14 -o CMakeFiles/http_server.dir/src/utils/db/DbConnection.cpp.o -c /home/admin/HttpServer/src/utils/db/DbConnection.cpp",
+  "file": "/home/admin/HttpServer/src/utils/db/DbConnection.cpp",
+  "output": "CMakeFiles/http_server.dir/src/utils/db/DbConnection.cpp.o"
+},
+{
+  "directory": "/home/admin/HttpServer/build",
+  "command": "/usr/bin/g++  -I/home/admin/HttpServer/include -I/home/admin/HttpServer/app/include -I/usr/include/mysql -I/usr/include/nlohmann  -Wall -Wextra -O2 -g -std=gnu++14 -o CMakeFiles/http_server.dir/src/utils/db/DbConnectionPool.cpp.o -c /home/admin/HttpServer/src/utils/db/DbConnectionPool.cpp",
+  "file": "/home/admin/HttpServer/src/utils/db/DbConnectionPool.cpp",
+  "output": "CMakeFiles/http_server.dir/src/utils/db/DbConnectionPool.cpp.o"
+},
+{
+  "directory": "/home/admin/HttpServer/build",
+  "command": "/usr/bin/g++  -I/home/admin/HttpServer/include -I/home/admin/HttpServer/app/include -I/usr/include/mysql -I/usr/include/nlohmann  -Wall -Wextra -O2 -g -std=gnu++14 -o CMakeFiles/http_server.dir/app/src/AppServer.cpp.o -c /home/admin/HttpServer/app/src/AppServer.cpp",
+  "file": "/home/admin/HttpServer/app/src/AppServer.cpp",
+  "output": "CMakeFiles/http_server.dir/app/src/AppServer.cpp.o"
+},
+{
+  "directory": "/home/admin/HttpServer/build",
+  "command": "/usr/bin/g++  -I/home/admin/HttpServer/include -I/home/admin/HttpServer/app/include -I/usr/include/mysql -I/usr/include/nlohmann  -Wall -Wextra -O2 -g -std=gnu++14 -o CMakeFiles/http_server.dir/app/src/handlers/BusinessHandler.cpp.o -c /home/admin/HttpServer/app/src/handlers/BusinessHandler.cpp",
+  "file": "/home/admin/HttpServer/app/src/handlers/BusinessHandler.cpp",
+  "output": "CMakeFiles/http_server.dir/app/src/handlers/BusinessHandler.cpp.o"
+},
+{
+  "directory": "/home/admin/HttpServer/build",
+  "command": "/usr/bin/g++  -I/home/admin/HttpServer/include -I/home/admin/HttpServer/app/include -I/usr/include/mysql -I/usr/include/nlohmann  -Wall -Wextra -O2 -g -std=gnu++14 -o CMakeFiles/http_server.dir/app/src/handlers/LoginHandler.cpp.o -c /home/admin/HttpServer/app/src/handlers/LoginHandler.cpp",
+  "file": "/home/admin/HttpServer/app/src/handlers/LoginHandler.cpp",
+  "output": "CMakeFiles/http_server.dir/app/src/handlers/LoginHandler.cpp.o"
+},
+{
+  "directory": "/home/admin/HttpServer/build",
+  "command": "/usr/bin/g++  -I/home/admin/HttpServer/include -I/home/admin/HttpServer/app/include -I/usr/include/mysql -I/usr/include/nlohmann  -Wall -Wextra -O2 -g -std=gnu++14 -o CMakeFiles/http_server.dir/app/src/handlers/RegisterHandler.cpp.o -c /home/admin/HttpServer/app/src/handlers/RegisterHandler.cpp",
+  "file": "/home/admin/HttpServer/app/src/handlers/RegisterHandler.cpp",
+  "output": "CMakeFiles/http_server.dir/app/src/handlers/RegisterHandler.cpp.o"
+}
+]

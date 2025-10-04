@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                // 2. 系统依赖的头文件路径（之前安装的库）
+                "/usr/include",          // muduo 头文件（/usr/include/muduo）
+                "/usr/include/mysql",    // MariaDB 头文件
+                "/usr/include/nlohmann"// nlohmann/json 头文件
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
