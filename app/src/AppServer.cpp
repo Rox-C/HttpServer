@@ -1,6 +1,8 @@
 #include "../include/AppServer.h"
 #include "../include/handlers/LoginHandler.h"
 #include "../include/handlers/RegisterHandler.h"
+#include "../include/handlers/MenuHandler.h"
+#include "../include/handlers/BusinessHandler.h"
 #include "../../include/http/HttpServer.h"
 #include "../../include/http/HttpRequest.h"
 #include "../../include/http/HttpResponse.h"

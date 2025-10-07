@@ -27,7 +27,7 @@ public:
     void resetDefaultFile()
     {
         file_.close();
-        file_.open("../../resource/NotFound.html", std::ios::binary);
+        file_.open("/home/admin/HttpServer/resource/NotFound.html", std::ios::binary);
     }
 
     uint64_t size()

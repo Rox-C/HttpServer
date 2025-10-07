@@ -22,7 +22,7 @@ void MenuHandler::handle(const http::HttpRequest& req, http::HttpResponse* resp)
         }
         int userId = std::stoi(session->getValue("userId"));
         std::string username = session->getValue("username");
-        std::string reqFile("../../../resource/menu.html");
+        std::string reqFile("/home/admin/HttpServer/resource/menu.html");
         FileUtil fileOperator(reqFile);
         if(!fileOperator.isValid())
         {

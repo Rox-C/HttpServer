@@ -429,4 +429,6 @@ CMakeFiles/http_server.dir/app/src/AppServer.cpp.o: \
  /usr/include/c++/10/x86_64-redhat-linux/bits/c++io.h \
  /usr/include/c++/10/bits/fstream.tcc \
  /home/admin/HttpServer/app/src/../include/handlers/LoginHandler.h \
- /home/admin/HttpServer/app/src/../include/handlers/RegisterHandler.h
+ /home/admin/HttpServer/app/src/../include/handlers/RegisterHandler.h \
+ /home/admin/HttpServer/app/src/../include/handlers/MenuHandler.h \
+ /home/admin/HttpServer/app/src/../include/handlers/BusinessHandler.h

@@ -3,7 +3,7 @@
 void BusinessHandler::handle(const http::HttpRequest& req, http::HttpResponse* resp)
 {
     std::string reqFile;
-    reqFile.append("../../../resource/index.html");
+    reqFile.append("/home/admin/HttpServer/resource/index.html");
     FileUtil fileOperator(reqFile);
     if(!fileOperator.isValid())
     {

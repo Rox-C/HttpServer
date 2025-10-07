@@ -60,8 +60,8 @@ void LoginHandler::handle(const http::HttpRequest& req, http::HttpResponse* resp
 
 int LoginHandler::queryUserId(const std::string& username, const std::string& password)
 {
-    std::string sql = "SELECT id FROM users WHERE username = ? AND password = ?";
-    MYSQL_RES* res = mysqlUtil_.executeQuery(sql, username, password);
+    std::string sql = "SELECT id FROM users WHERE username =  '" + username +"' AND password = '" + password + "'";
+    MYSQL_RES* res = mysqlUtil_.executeQuery(sql);
     MYSQL_ROW row = mysql_fetch_row(res);
     if(row)
     {
