@@ -115,6 +115,12 @@
 },
 {
   "directory": "/home/admin/HttpServer/build",
+  "command": "/usr/bin/g++  -I/home/admin/HttpServer/include -I/home/admin/HttpServer/app/include -I/usr/include/mysql -I/usr/include/nlohmann  -Wall -Wextra -O2 -g -std=gnu++14 -o CMakeFiles/http_server.dir/app/src/handlers/MenuHandler.cpp.o -c /home/admin/HttpServer/app/src/handlers/MenuHandler.cpp",
+  "file": "/home/admin/HttpServer/app/src/handlers/MenuHandler.cpp",
+  "output": "CMakeFiles/http_server.dir/app/src/handlers/MenuHandler.cpp.o"
+},
+{
+  "directory": "/home/admin/HttpServer/build",
   "command": "/usr/bin/g++  -I/home/admin/HttpServer/include -I/home/admin/HttpServer/app/include -I/usr/include/mysql -I/usr/include/nlohmann  -Wall -Wextra -O2 -g -std=gnu++14 -o CMakeFiles/http_server.dir/app/src/handlers/RegisterHandler.cpp.o -c /home/admin/HttpServer/app/src/handlers/RegisterHandler.cpp",
   "file": "/home/admin/HttpServer/app/src/handlers/RegisterHandler.cpp",
   "output": "CMakeFiles/http_server.dir/app/src/handlers/RegisterHandler.cpp.o"

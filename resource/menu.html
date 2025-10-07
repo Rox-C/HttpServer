@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>卡码五子棋 - 主菜单</title>
+    <style>
+        /* 全局样式 */
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", Arial, sans-serif;
+            background-color: #1e1e2f;
+            color: #fff;
+            overflow: hidden;
+        }
+
+        /* 主容器 */
+        #menu-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        /* 标题 */
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            color: #00c3ff;
+            text-shadow: 0 0 5px #00c3ff, 0 0 10px #008bff;
+        }
+
+        /* 欢迎信息 */
+        .welcome-message {
+            font-size: 1.5em;
+            margin-bottom: 40px;
+            color: #00e1ff;
+        }
+
+        /* 菜单选项 */
+        .menu-option {
+            margin: 15px 0;
+            font-size: 1.3em;
+            color: #aaa;
+        }
+
+        /* 分隔线 */
+        .menu-border {
+            margin: 20px auto;
+            width: 60%;
+            height: 1px;
+            background: #00c3ff;
+            box-shadow: 0 0 5px #00c3ff;
+        }
+
+        /* 提示信息 */
+        .hint {
+            font-size: 1em;
+            margin-top: 30px;
+            color: #888;
+        }
+    </style>
+</head>
+<!-- 后端会在这里插入 <script>const userId = '123';</script> -->
+<body>
+    <!-- 菜单页面 -->
+    <div id="menu-container">
+        <h1>卡码五子棋</h1>
+        <div class="welcome-message">欢迎进入游戏主页面</div>
+        
+        <div class="menu-border"></div>
+        
+        <div class="menu-option">[√] 登录成功</div>
+        <div class="menu-option">[√] 页面加载完成</div>
+        <div class="menu-option">[ ] 功能开发中...</div>
+        
+        <div class="menu-border"></div>
+        
+        <div class="hint">感谢您的访问，更多功能敬请期待</div>
+    </div>
+
+    <script>
+        // 页面加载完成后检查登录状态
+        document.addEventListener('DOMContentLoaded', function() {
+            // 检查后端注入的 userId 变量
+            if (typeof userId === 'undefined' || !userId) {
+                // 如果没有 userId，说明未登录，重定向到首页
+                console.log('User not logged in, redirecting to home page');
+                window.location.href = '/';
+                return;
+            }
+            
+            // 用户已登录，显示主菜单
+            console.log('User logged in with userId:', userId);
+        });
+    </script>
+</body>
+</html>

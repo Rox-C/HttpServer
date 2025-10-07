@@ -24,7 +24,7 @@ bool Router::route(const HttpRequest& req, HttpResponse* resp)
     auto it = handlers_.find(key);
     if(it != handlers_.end())
     {
-        it->second->handleRequest(req, resp);
+        it->second->handle(req, resp);
         return true;
     }
 
@@ -46,7 +46,7 @@ bool Router::route(const HttpRequest& req, HttpResponse* resp)
         {
             HttpRequest reqCopy = req; // 复制请求对象以添加路径参数
             extractPathParameters(match, reqCopy);
-            handler->handleRequest(reqCopy, resp);
+            handler->handle(reqCopy, resp);
             return true;
         }
     }

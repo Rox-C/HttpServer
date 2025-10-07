@@ -1,20 +1,28 @@
 CMakeFiles/http_server.dir/app/src/AppServer.cpp.o: \
  /home/admin/HttpServer/app/src/AppServer.cpp /usr/include/stdc-predef.h \
- /home/admin/HttpServer/app/include/AppServer.h \
- /usr/include/c++/10/memory /usr/include/c++/10/bits/stl_algobase.h \
+ /home/admin/HttpServer/app/src/../include/AppServer.h \
+ /usr/include/c++/10/atomic /usr/include/c++/10/bits/atomic_base.h \
  /usr/include/c++/10/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/c++/10/x86_64-redhat-linux/bits/os_defines.h \
  /usr/include/features.h /usr/include/sys/cdefs.h \
  /usr/include/bits/wordsize.h /usr/include/bits/long-double.h \
  /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
  /usr/include/c++/10/x86_64-redhat-linux/bits/cpu_defines.h \
+ /usr/lib/gcc/x86_64-redhat-linux/10/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
+ /usr/include/bits/types.h /usr/include/bits/timesize.h \
+ /usr/include/bits/typesizes.h /usr/include/bits/time64.h \
+ /usr/include/bits/wchar.h /usr/include/bits/stdint-intn.h \
+ /usr/include/bits/stdint-uintn.h \
+ /usr/include/c++/10/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/10/bits/move.h /usr/include/c++/10/type_traits \
+ /usr/include/c++/10/memory /usr/include/c++/10/bits/stl_algobase.h \
  /usr/include/c++/10/bits/functexcept.h \
  /usr/include/c++/10/bits/exception_defines.h \
  /usr/include/c++/10/bits/cpp_type_traits.h \
  /usr/include/c++/10/ext/type_traits.h \
  /usr/include/c++/10/ext/numeric_traits.h \
- /usr/include/c++/10/bits/stl_pair.h /usr/include/c++/10/bits/move.h \
- /usr/include/c++/10/type_traits \
+ /usr/include/c++/10/bits/stl_pair.h \
  /usr/include/c++/10/bits/stl_iterator_base_types.h \
  /usr/include/c++/10/bits/stl_iterator_base_funcs.h \
  /usr/include/c++/10/bits/concept_check.h \
@@ -41,19 +49,17 @@ CMakeFiles/http_server.dir/app/src/AppServer.cpp.o: \
  /usr/include/c++/10/bits/ranges_uninitialized.h \
  /usr/include/c++/10/iosfwd /usr/include/c++/10/bits/stringfwd.h \
  /usr/include/c++/10/bits/postypes.h /usr/include/c++/10/cwchar \
- /usr/include/wchar.h /usr/include/bits/libc-header-start.h \
- /usr/include/bits/floatn.h /usr/include/bits/floatn-common.h \
+ /usr/include/wchar.h /usr/include/bits/floatn.h \
+ /usr/include/bits/floatn-common.h \
  /usr/lib/gcc/x86_64-redhat-linux/10/include/stdarg.h \
- /usr/include/bits/wchar.h /usr/include/bits/types/wint_t.h \
- /usr/include/bits/types/mbstate_t.h \
+ /usr/include/bits/types/wint_t.h /usr/include/bits/types/mbstate_t.h \
  /usr/include/bits/types/__mbstate_t.h /usr/include/bits/types/__FILE.h \
  /usr/include/bits/types/FILE.h /usr/include/bits/types/locale_t.h \
  /usr/include/bits/types/__locale_t.h /usr/include/c++/10/ext/atomicity.h \
  /usr/include/c++/10/x86_64-redhat-linux/bits/gthr.h \
  /usr/include/c++/10/x86_64-redhat-linux/bits/gthr-default.h \
- /usr/include/pthread.h /usr/include/sched.h /usr/include/bits/types.h \
- /usr/include/bits/timesize.h /usr/include/bits/typesizes.h \
- /usr/include/bits/time64.h /usr/include/bits/types/time_t.h \
+ /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/bits/types/time_t.h \
  /usr/include/bits/types/struct_timespec.h /usr/include/bits/endian.h \
  /usr/include/bits/endianness.h /usr/include/bits/sched.h \
  /usr/include/bits/types/struct_sched_param.h /usr/include/bits/cpu-set.h \
@@ -85,13 +91,21 @@ CMakeFiles/http_server.dir/app/src/AppServer.cpp.o: \
  /usr/include/c++/10/bits/refwrap.h \
  /usr/include/c++/10/ext/aligned_buffer.h \
  /usr/include/c++/10/bits/shared_ptr_atomic.h \
- /usr/include/c++/10/bits/atomic_base.h \
- /usr/lib/gcc/x86_64-redhat-linux/10/include/stdint.h \
- /usr/include/stdint.h /usr/include/bits/stdint-intn.h \
- /usr/include/bits/stdint-uintn.h \
- /usr/include/c++/10/bits/atomic_lockfree_defines.h \
  /usr/include/c++/10/backward/auto_ptr.h /usr/include/c++/10/cstdint \
- /usr/include/c++/10/string /usr/include/c++/10/bits/char_traits.h \
+ /usr/include/c++/10/unordered_map /usr/include/c++/10/bits/hashtable.h \
+ /usr/include/c++/10/bits/hashtable_policy.h /usr/include/c++/10/limits \
+ /usr/include/c++/10/bits/unordered_map.h \
+ /usr/include/c++/10/bits/erase_if.h /usr/include/c++/10/mutex \
+ /usr/include/c++/10/chrono /usr/include/c++/10/ratio \
+ /usr/include/c++/10/ctime /usr/include/c++/10/bits/parse_numbers.h \
+ /usr/include/c++/10/system_error \
+ /usr/include/c++/10/x86_64-redhat-linux/bits/error_constants.h \
+ /usr/include/c++/10/cerrno /usr/include/errno.h \
+ /usr/include/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h /usr/include/bits/types/error_t.h \
+ /usr/include/c++/10/stdexcept /usr/include/c++/10/string \
+ /usr/include/c++/10/bits/char_traits.h \
  /usr/include/c++/10/bits/localefwd.h \
  /usr/include/c++/10/x86_64-redhat-linux/bits/c++locale.h \
  /usr/include/c++/10/clocale /usr/include/locale.h \
@@ -112,21 +126,19 @@ CMakeFiles/http_server.dir/app/src/AppServer.cpp.o: \
  /usr/include/bits/types/struct_FILE.h \
  /usr/include/bits/types/cookie_io_functions_t.h \
  /usr/include/bits/stdio_lim.h /usr/include/bits/stdio.h \
- /usr/include/c++/10/cerrno /usr/include/errno.h \
- /usr/include/bits/errno.h /usr/include/linux/errno.h \
- /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
- /usr/include/asm-generic/errno-base.h /usr/include/bits/types/error_t.h \
  /usr/include/c++/10/bits/charconv.h \
  /usr/include/c++/10/bits/basic_string.tcc \
- /home/admin/HttpServer/include/http/HttpServer.h /usr/include/sys/stat.h \
- /usr/include/bits/stat.h /usr/include/bits/statx.h \
- /usr/include/linux/stat.h /usr/include/linux/types.h \
- /usr/include/asm/types.h /usr/include/asm-generic/types.h \
- /usr/include/asm-generic/int-ll64.h /usr/include/asm/bitsperlong.h \
- /usr/include/asm-generic/bitsperlong.h /usr/include/linux/posix_types.h \
- /usr/include/linux/stddef.h /usr/include/asm/posix_types.h \
- /usr/include/asm/posix_types_64.h /usr/include/asm-generic/posix_types.h \
- /usr/include/bits/statx-generic.h \
+ /usr/include/c++/10/bits/std_mutex.h \
+ /usr/include/c++/10/bits/unique_lock.h \
+ /home/admin/HttpServer/app/src/../include/../../include/http/HttpServer.h \
+ /usr/include/sys/stat.h /usr/include/bits/stat.h \
+ /usr/include/bits/statx.h /usr/include/linux/stat.h \
+ /usr/include/linux/types.h /usr/include/asm/types.h \
+ /usr/include/asm-generic/types.h /usr/include/asm-generic/int-ll64.h \
+ /usr/include/asm/bitsperlong.h /usr/include/asm-generic/bitsperlong.h \
+ /usr/include/linux/posix_types.h /usr/include/linux/stddef.h \
+ /usr/include/asm/posix_types.h /usr/include/asm/posix_types_64.h \
+ /usr/include/asm-generic/posix_types.h /usr/include/bits/statx-generic.h \
  /usr/include/bits/types/struct_statx_timestamp.h \
  /usr/include/bits/types/struct_statx.h /usr/include/unistd.h \
  /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
@@ -137,10 +149,7 @@ CMakeFiles/http_server.dir/app/src/AppServer.cpp.o: \
  /usr/include/c++/10/ios /usr/include/c++/10/bits/ios_base.h \
  /usr/include/c++/10/bits/locale_classes.h \
  /usr/include/c++/10/bits/locale_classes.tcc \
- /usr/include/c++/10/system_error \
- /usr/include/c++/10/x86_64-redhat-linux/bits/error_constants.h \
- /usr/include/c++/10/stdexcept /usr/include/c++/10/streambuf \
- /usr/include/c++/10/bits/streambuf.tcc \
+ /usr/include/c++/10/streambuf /usr/include/c++/10/bits/streambuf.tcc \
  /usr/include/c++/10/bits/basic_ios.h \
  /usr/include/c++/10/bits/locale_facets.h /usr/include/c++/10/cwctype \
  /usr/include/wctype.h /usr/include/bits/wctype-wchar.h \
@@ -153,10 +162,6 @@ CMakeFiles/http_server.dir/app/src/AppServer.cpp.o: \
  /usr/include/c++/10/bits/istream.tcc /usr/include/c++/10/map \
  /usr/include/c++/10/bits/stl_tree.h /usr/include/c++/10/bits/stl_map.h \
  /usr/include/c++/10/bits/stl_multimap.h \
- /usr/include/c++/10/bits/erase_if.h /usr/include/c++/10/unordered_map \
- /usr/include/c++/10/bits/hashtable.h \
- /usr/include/c++/10/bits/hashtable_policy.h /usr/include/c++/10/limits \
- /usr/include/c++/10/bits/unordered_map.h \
  /usr/include/muduo/net/TcpServer.h /usr/include/muduo/base/Atomic.h \
  /usr/include/muduo/base/noncopyable.h /usr/include/muduo/base/Types.h \
  /usr/include/string.h /usr/include/strings.h /usr/include/assert.h \
@@ -307,17 +312,16 @@ CMakeFiles/http_server.dir/app/src/AppServer.cpp.o: \
  /usr/include/boost/utility/enable_if.hpp \
  /usr/include/boost/core/enable_if.hpp \
  /usr/include/boost/type_traits/is_same.hpp \
- /usr/include/muduo/net/EventLoop.h /usr/include/c++/10/atomic \
- /usr/include/muduo/base/Mutex.h /usr/include/muduo/base/CurrentThread.h \
- /usr/include/muduo/net/TimerId.h /usr/include/muduo/base/Logging.h \
- /usr/include/muduo/base/LogStream.h \
- /home/admin/HttpServer/include/http/HttpContext.h \
- /home/admin/HttpServer/include/http/HttpRequest.h \
- /home/admin/HttpServer/include/http/HttpResponse.h \
- /home/admin/HttpServer/include/http/../router/Router.h \
+ /usr/include/muduo/net/EventLoop.h /usr/include/muduo/base/Mutex.h \
+ /usr/include/muduo/base/CurrentThread.h /usr/include/muduo/net/TimerId.h \
+ /usr/include/muduo/base/Logging.h /usr/include/muduo/base/LogStream.h \
+ /home/admin/HttpServer/app/src/../include/../../include/http/HttpContext.h \
+ /home/admin/HttpServer/app/src/../include/../../include/http/HttpRequest.h \
+ /home/admin/HttpServer/app/src/../include/../../include/http/HttpResponse.h \
+ /home/admin/HttpServer/app/src/../include/../../include/http/../router/Router.h \
  /usr/include/c++/10/regex /usr/include/c++/10/bitset \
  /usr/include/c++/10/locale \
- /usr/include/c++/10/bits/locale_facets_nonio.h /usr/include/c++/10/ctime \
+ /usr/include/c++/10/bits/locale_facets_nonio.h \
  /usr/include/c++/10/x86_64-redhat-linux/bits/time_members.h \
  /usr/include/c++/10/x86_64-redhat-linux/bits/messages_members.h \
  /usr/include/libintl.h /usr/include/c++/10/bits/codecvt.h \
@@ -337,13 +341,11 @@ CMakeFiles/http_server.dir/app/src/AppServer.cpp.o: \
  /usr/include/c++/10/bits/regex.h /usr/include/c++/10/bits/regex.tcc \
  /usr/include/c++/10/bits/regex_executor.h \
  /usr/include/c++/10/bits/regex_executor.tcc \
- /home/admin/HttpServer/include/http/../router/RouterHandler.h \
- /home/admin/HttpServer/include/http/../session/SessionManager.h \
- /home/admin/HttpServer/include/http/../session/SessionStorage.h \
- /home/admin/HttpServer/include/http/../session/Session.h \
- /usr/include/c++/10/chrono /usr/include/c++/10/ratio \
- /usr/include/c++/10/bits/parse_numbers.h /usr/include/c++/10/random \
- /usr/include/c++/10/cmath /usr/include/math.h \
+ /home/admin/HttpServer/app/src/../include/../../include/http/../router/RouterHandler.h \
+ /home/admin/HttpServer/app/src/../include/../../include/http/../session/SessionManager.h \
+ /home/admin/HttpServer/app/src/../include/../../include/http/../session/SessionStorage.h \
+ /home/admin/HttpServer/app/src/../include/../../include/http/../session/Session.h \
+ /usr/include/c++/10/random /usr/include/c++/10/cmath /usr/include/math.h \
  /usr/include/bits/math-vector.h /usr/include/bits/libm-simd-decl-stubs.h \
  /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
  /usr/include/bits/fp-fast.h \
@@ -353,12 +355,12 @@ CMakeFiles/http_server.dir/app/src/AppServer.cpp.o: \
  /usr/include/c++/10/x86_64-redhat-linux/bits/opt_random.h \
  /usr/include/c++/10/bits/random.tcc /usr/include/c++/10/numeric \
  /usr/include/c++/10/bits/stl_numeric.h \
- /home/admin/HttpServer/include/http/../middleware/MiddlewareChain.h \
- /home/admin/HttpServer/include/http/../middleware/Middleware.h \
- /home/admin/HttpServer/include/http/../middleware/cors/CorsMiddleware.h \
- /home/admin/HttpServer/include/http/../middleware/cors/CorsConfig.h \
- /home/admin/HttpServer/include/http/../ssl/SslConnection.h \
- /home/admin/HttpServer/include/http/../ssl/SslContext.h \
+ /home/admin/HttpServer/app/src/../include/../../include/http/../middleware/MiddlewareChain.h \
+ /home/admin/HttpServer/app/src/../include/../../include/http/../middleware/Middleware.h \
+ /home/admin/HttpServer/app/src/../include/../../include/http/../middleware/cors/CorsMiddleware.h \
+ /home/admin/HttpServer/app/src/../include/../../include/http/../middleware/cors/CorsConfig.h \
+ /home/admin/HttpServer/app/src/../include/../../include/http/../ssl/SslConnection.h \
+ /home/admin/HttpServer/app/src/../include/../../include/http/../ssl/SslContext.h \
  /usr/include/openssl/ssl.h /usr/include/openssl/e_os2.h \
  /usr/include/openssl/opensslconf.h \
  /usr/include/openssl/opensslconf-x86_64.h \
@@ -394,19 +396,37 @@ CMakeFiles/http_server.dir/app/src/AppServer.cpp.o: \
  /usr/include/openssl/ssl2.h /usr/include/openssl/ssl3.h \
  /usr/include/openssl/tls1.h /usr/include/openssl/dtls1.h \
  /usr/include/openssl/srtp.h \
- /home/admin/HttpServer/include/http/../ssl/SslConfig.h \
- /home/admin/HttpServer/include/http/../ssl/SslTypes.h \
- /home/admin/HttpServer/include/utils/db/DbConnectionPool.h \
+ /home/admin/HttpServer/app/src/../include/../../include/http/../ssl/SslConfig.h \
+ /home/admin/HttpServer/app/src/../include/../../include/http/../ssl/SslTypes.h \
+ /home/admin/HttpServer/app/src/../include/../../include/utils/MysqlUtil.h \
+ /home/admin/HttpServer/app/src/../include/../../include/utils/db/DbConnectionPool.h \
  /usr/include/c++/10/queue /usr/include/c++/10/bits/stl_queue.h \
- /usr/include/c++/10/mutex /usr/include/c++/10/bits/std_mutex.h \
- /usr/include/c++/10/bits/unique_lock.h \
  /usr/include/c++/10/condition_variable /usr/include/c++/10/thread \
- /home/admin/HttpServer/include/utils/db/DbConnection.h \
+ /home/admin/HttpServer/app/src/../include/../../include/utils/db/DbConnection.h \
  /usr/include/mysql/mysql.h /usr/include/mysql/mariadb_com.h \
  /usr/include/mysql/mariadb_version.h \
  /usr/include/mysql/mariadb_version-x86_64.h /usr/include/mysql/ma_list.h \
  /usr/include/mysql/mariadb_ctype.h /usr/include/mysql/mariadb_stmt.h \
- /home/admin/HttpServer/include/utils/db/DbException.h \
- /home/admin/HttpServer/app/include/handlers/LoginHandler.h \
- /home/admin/HttpServer/app/include/handlers/RegisterHandler.h \
- /home/admin/HttpServer/app/include/handlers/BusinessHandler.h
+ /home/admin/HttpServer/app/src/../include/../../include/utils/db/DbException.h \
+ /home/admin/HttpServer/app/src/../include/../../include/utils/JsonUtil.h \
+ /usr/include/nlohmann/json.hpp /usr/include/c++/10/forward_list \
+ /usr/include/c++/10/bits/forward_list.h \
+ /usr/include/c++/10/bits/forward_list.tcc /usr/include/c++/10/valarray \
+ /usr/include/c++/10/bits/valarray_array.h \
+ /usr/include/c++/10/bits/valarray_array.tcc \
+ /usr/include/c++/10/bits/valarray_before.h \
+ /usr/include/c++/10/bits/slice_array.h \
+ /usr/include/c++/10/bits/valarray_after.h \
+ /usr/include/c++/10/bits/gslice.h \
+ /usr/include/c++/10/bits/gslice_array.h \
+ /usr/include/c++/10/bits/mask_array.h \
+ /usr/include/c++/10/bits/indirect_array.h /usr/include/c++/10/version \
+ /usr/include/c++/10/cassert /usr/include/c++/10/iomanip \
+ /usr/include/c++/10/bits/quoted_string.h \
+ /home/admin/HttpServer/app/src/../include/../../include/utils/FileUtil.h \
+ /usr/include/c++/10/fstream \
+ /usr/include/c++/10/x86_64-redhat-linux/bits/basic_file.h \
+ /usr/include/c++/10/x86_64-redhat-linux/bits/c++io.h \
+ /usr/include/c++/10/bits/fstream.tcc \
+ /home/admin/HttpServer/app/src/../include/handlers/LoginHandler.h \
+ /home/admin/HttpServer/app/src/../include/handlers/RegisterHandler.h

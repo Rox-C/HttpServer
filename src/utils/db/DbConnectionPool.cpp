@@ -33,6 +33,7 @@ void DbConnectionPool::init(const std::string& host,
     }
 
     initialized_ = true;
+    LOG_WARN << "Database connect with " << host << ":" << database << " successful";
     LOG_INFO << "Database connection pool initialized with " << poolSize << " connections";
 }
 

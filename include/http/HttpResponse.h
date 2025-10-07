@@ -17,6 +17,7 @@ public:
         k401Unauthorized = 401,
         k403Forbidden = 403,
         k404NotFound = 404,
+        k409Conflict = 409,
         k500InternalServerError = 500,
     };
 

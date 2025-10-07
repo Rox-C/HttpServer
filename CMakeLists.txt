@@ -27,7 +27,7 @@ include_directories(
     /usr/include/nlohmann
 )
 
-
+find_package(OpenSSL REQUIRED)
 #3. cpp源文件收集
 
 file(GLOB_RECURSE FRAMEWORK_SRC
@@ -55,6 +55,8 @@ target_link_libraries(http_server
     muduo_base
     mariadb
     mysqlclient
+    OpenSSL::SSL
+    OpenSSL::Crypto
 )
 
 # 6.打印信息

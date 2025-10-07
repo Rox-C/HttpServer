@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/http_server.dir/app/src/handlers/BusinessHandler.cpp.o.d"
   "CMakeFiles/http_server.dir/app/src/handlers/LoginHandler.cpp.o"
   "CMakeFiles/http_server.dir/app/src/handlers/LoginHandler.cpp.o.d"
+  "CMakeFiles/http_server.dir/app/src/handlers/MenuHandler.cpp.o"
+  "CMakeFiles/http_server.dir/app/src/handlers/MenuHandler.cpp.o.d"
   "CMakeFiles/http_server.dir/app/src/handlers/RegisterHandler.cpp.o"
   "CMakeFiles/http_server.dir/app/src/handlers/RegisterHandler.cpp.o.d"
   "CMakeFiles/http_server.dir/main.cpp.o"

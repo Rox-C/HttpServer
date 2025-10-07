@@ -335,10 +335,24 @@ CMakeFiles/http_server.dir/app/src/handlers/LoginHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/http_server.dir/app/src/handlers/LoginHandler.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admin/HttpServer/app/src/handlers/LoginHandler.cpp -o CMakeFiles/http_server.dir/app/src/handlers/LoginHandler.cpp.s
 
+CMakeFiles/http_server.dir/app/src/handlers/MenuHandler.cpp.o: CMakeFiles/http_server.dir/flags.make
+CMakeFiles/http_server.dir/app/src/handlers/MenuHandler.cpp.o: /home/admin/HttpServer/app/src/handlers/MenuHandler.cpp
+CMakeFiles/http_server.dir/app/src/handlers/MenuHandler.cpp.o: CMakeFiles/http_server.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admin/HttpServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/http_server.dir/app/src/handlers/MenuHandler.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/http_server.dir/app/src/handlers/MenuHandler.cpp.o -MF CMakeFiles/http_server.dir/app/src/handlers/MenuHandler.cpp.o.d -o CMakeFiles/http_server.dir/app/src/handlers/MenuHandler.cpp.o -c /home/admin/HttpServer/app/src/handlers/MenuHandler.cpp
+
+CMakeFiles/http_server.dir/app/src/handlers/MenuHandler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/http_server.dir/app/src/handlers/MenuHandler.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admin/HttpServer/app/src/handlers/MenuHandler.cpp > CMakeFiles/http_server.dir/app/src/handlers/MenuHandler.cpp.i
+
+CMakeFiles/http_server.dir/app/src/handlers/MenuHandler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/http_server.dir/app/src/handlers/MenuHandler.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admin/HttpServer/app/src/handlers/MenuHandler.cpp -o CMakeFiles/http_server.dir/app/src/handlers/MenuHandler.cpp.s
+
 CMakeFiles/http_server.dir/app/src/handlers/RegisterHandler.cpp.o: CMakeFiles/http_server.dir/flags.make
 CMakeFiles/http_server.dir/app/src/handlers/RegisterHandler.cpp.o: /home/admin/HttpServer/app/src/handlers/RegisterHandler.cpp
 CMakeFiles/http_server.dir/app/src/handlers/RegisterHandler.cpp.o: CMakeFiles/http_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admin/HttpServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/http_server.dir/app/src/handlers/RegisterHandler.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admin/HttpServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/http_server.dir/app/src/handlers/RegisterHandler.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/http_server.dir/app/src/handlers/RegisterHandler.cpp.o -MF CMakeFiles/http_server.dir/app/src/handlers/RegisterHandler.cpp.o.d -o CMakeFiles/http_server.dir/app/src/handlers/RegisterHandler.cpp.o -c /home/admin/HttpServer/app/src/handlers/RegisterHandler.cpp
 
 CMakeFiles/http_server.dir/app/src/handlers/RegisterHandler.cpp.i: cmake_force
@@ -370,6 +384,7 @@ http_server_OBJECTS = \
 "CMakeFiles/http_server.dir/app/src/AppServer.cpp.o" \
 "CMakeFiles/http_server.dir/app/src/handlers/BusinessHandler.cpp.o" \
 "CMakeFiles/http_server.dir/app/src/handlers/LoginHandler.cpp.o" \
+"CMakeFiles/http_server.dir/app/src/handlers/MenuHandler.cpp.o" \
 "CMakeFiles/http_server.dir/app/src/handlers/RegisterHandler.cpp.o"
 
 # External object files for target http_server
@@ -394,10 +409,13 @@ http_server: CMakeFiles/http_server.dir/src/utils/db/DbConnectionPool.cpp.o
 http_server: CMakeFiles/http_server.dir/app/src/AppServer.cpp.o
 http_server: CMakeFiles/http_server.dir/app/src/handlers/BusinessHandler.cpp.o
 http_server: CMakeFiles/http_server.dir/app/src/handlers/LoginHandler.cpp.o
+http_server: CMakeFiles/http_server.dir/app/src/handlers/MenuHandler.cpp.o
 http_server: CMakeFiles/http_server.dir/app/src/handlers/RegisterHandler.cpp.o
 http_server: CMakeFiles/http_server.dir/build.make
+http_server: /usr/lib64/libssl.so
+http_server: /usr/lib64/libcrypto.so
 http_server: CMakeFiles/http_server.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/admin/HttpServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable http_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/admin/HttpServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable http_server"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/http_server.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

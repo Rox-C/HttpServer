@@ -12,7 +12,7 @@ class RouterHandler
 {
 public:
     virtual ~RouterHandler() = default;
-    virtual void handleRequest(const HttpRequest& req, HttpResponse* resp) = 0;
+    virtual void handle(const HttpRequest& req, HttpResponse* resp) = 0;
 };
 }
 }

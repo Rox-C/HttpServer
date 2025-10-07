@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/admin/HttpServer/app/src/AppServer.cpp" "CMakeFiles/http_server.dir/app/src/AppServer.cpp.o" "gcc" "CMakeFiles/http_server.dir/app/src/AppServer.cpp.o.d"
   "/home/admin/HttpServer/app/src/handlers/BusinessHandler.cpp" "CMakeFiles/http_server.dir/app/src/handlers/BusinessHandler.cpp.o" "gcc" "CMakeFiles/http_server.dir/app/src/handlers/BusinessHandler.cpp.o.d"
   "/home/admin/HttpServer/app/src/handlers/LoginHandler.cpp" "CMakeFiles/http_server.dir/app/src/handlers/LoginHandler.cpp.o" "gcc" "CMakeFiles/http_server.dir/app/src/handlers/LoginHandler.cpp.o.d"
+  "/home/admin/HttpServer/app/src/handlers/MenuHandler.cpp" "CMakeFiles/http_server.dir/app/src/handlers/MenuHandler.cpp.o" "gcc" "CMakeFiles/http_server.dir/app/src/handlers/MenuHandler.cpp.o.d"
   "/home/admin/HttpServer/app/src/handlers/RegisterHandler.cpp" "CMakeFiles/http_server.dir/app/src/handlers/RegisterHandler.cpp.o" "gcc" "CMakeFiles/http_server.dir/app/src/handlers/RegisterHandler.cpp.o.d"
   "/home/admin/HttpServer/main.cpp" "CMakeFiles/http_server.dir/main.cpp.o" "gcc" "CMakeFiles/http_server.dir/main.cpp.o.d"
   "/home/admin/HttpServer/src/http/HttpContext.cpp" "CMakeFiles/http_server.dir/src/http/HttpContext.cpp.o" "gcc" "CMakeFiles/http_server.dir/src/http/HttpContext.cpp.o.d"

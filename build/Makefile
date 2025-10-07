@@ -201,6 +201,30 @@ app/src/handlers/LoginHandler.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/http_server.dir/build.make CMakeFiles/http_server.dir/app/src/handlers/LoginHandler.cpp.s
 .PHONY : app/src/handlers/LoginHandler.cpp.s
 
+app/src/handlers/MenuHandler.o: app/src/handlers/MenuHandler.cpp.o
+.PHONY : app/src/handlers/MenuHandler.o
+
+# target to build an object file
+app/src/handlers/MenuHandler.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/http_server.dir/build.make CMakeFiles/http_server.dir/app/src/handlers/MenuHandler.cpp.o
+.PHONY : app/src/handlers/MenuHandler.cpp.o
+
+app/src/handlers/MenuHandler.i: app/src/handlers/MenuHandler.cpp.i
+.PHONY : app/src/handlers/MenuHandler.i
+
+# target to preprocess a source file
+app/src/handlers/MenuHandler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/http_server.dir/build.make CMakeFiles/http_server.dir/app/src/handlers/MenuHandler.cpp.i
+.PHONY : app/src/handlers/MenuHandler.cpp.i
+
+app/src/handlers/MenuHandler.s: app/src/handlers/MenuHandler.cpp.s
+.PHONY : app/src/handlers/MenuHandler.s
+
+# target to generate assembly for a file
+app/src/handlers/MenuHandler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/http_server.dir/build.make CMakeFiles/http_server.dir/app/src/handlers/MenuHandler.cpp.s
+.PHONY : app/src/handlers/MenuHandler.cpp.s
+
 app/src/handlers/RegisterHandler.o: app/src/handlers/RegisterHandler.cpp.o
 .PHONY : app/src/handlers/RegisterHandler.o
 
@@ -627,6 +651,9 @@ help:
 	@echo "... app/src/handlers/LoginHandler.o"
 	@echo "... app/src/handlers/LoginHandler.i"
 	@echo "... app/src/handlers/LoginHandler.s"
+	@echo "... app/src/handlers/MenuHandler.o"
+	@echo "... app/src/handlers/MenuHandler.i"
+	@echo "... app/src/handlers/MenuHandler.s"
 	@echo "... app/src/handlers/RegisterHandler.o"
 	@echo "... app/src/handlers/RegisterHandler.i"
 	@echo "... app/src/handlers/RegisterHandler.s"
